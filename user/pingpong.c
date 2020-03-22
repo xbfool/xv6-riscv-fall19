@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
       echo[4] = 0;
       printf("%d: received %s, len: %d\n", getpid(), echo, len);
       sleep(10);
-      write(parent_fd[1], "pong", 5;
+      write(parent_fd[1], "pong", 5);
       
     }
   }
