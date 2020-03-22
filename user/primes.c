@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
         write(fd, (&i), sizeof(i));
     }
     i = 0;
-    //write(fd, (&i), sizeof(i));
+    write(fd, (&i), sizeof(i));
     wait();
     exit();
 }
